@@ -29,7 +29,6 @@
 
 .button {
   cursor: pointer;
-  border: none;
 }
 
 h1,
@@ -92,9 +91,8 @@ body {
 }
 
 .container {
+  padding: 0 15px;
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -139,6 +137,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -209,6 +208,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   min-width: 169px;
   height: 56px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -332,8 +332,7 @@ body {
 .projects{
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
 }
 
 .project-card {
