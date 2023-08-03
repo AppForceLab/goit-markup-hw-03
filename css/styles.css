@@ -117,8 +117,6 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px; 
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -143,11 +141,14 @@ body {
 }
 
 .menu-link {
+  display: block;
   color: var(--dark-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
