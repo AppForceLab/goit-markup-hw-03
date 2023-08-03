@@ -111,12 +111,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding: 24px 0;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo {
@@ -331,8 +331,8 @@ body {
 
 .projects{
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .project-card {
