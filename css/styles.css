@@ -29,6 +29,7 @@
 
 .button {
   cursor: pointer;
+  border: none;
 }
 
 h1,
@@ -66,6 +67,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
+  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -91,7 +93,8 @@ body {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -110,7 +113,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 24px 0;
 }
 
 .main-nav {
@@ -219,6 +221,7 @@ body {
 .benefits {
   display: flex;
   gap: 24px;
+  padding: 24px 0;
 }
 
 .benefits-card-title {
