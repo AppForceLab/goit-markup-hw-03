@@ -138,11 +138,10 @@ body {
 }
 
 .main-menu {
-  
+
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 
 .menu-link {
@@ -151,6 +150,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
