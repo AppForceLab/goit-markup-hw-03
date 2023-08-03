@@ -304,9 +304,9 @@ body {
 
 .project-filters {
   display: flex;
-  gap: 24px; 
   justify-content: center;
   margin-bottom: 72px;
+  gap: 24px; 
 }
 
 .filter-btn {
@@ -331,8 +331,8 @@ body {
 
 .projects{
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
+  gap: 24px; 
 }
 
 .project-card {
