@@ -110,7 +110,7 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding-top: 24px; 
   padding-bottom: 24px;
 }
