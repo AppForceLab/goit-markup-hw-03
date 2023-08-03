@@ -66,7 +66,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -115,11 +114,11 @@ body {
   align-items: center;
 }
 
-
-
 .main-nav {
   display: flex;
   align-items: center;
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -138,7 +137,6 @@ body {
 }
 
 .main-menu {
-
   display: flex;
   align-items: center;
   gap: 40px;
@@ -150,7 +148,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 24px 0;
 }
 
 .menu-link:hover,
