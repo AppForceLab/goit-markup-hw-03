@@ -106,9 +106,12 @@ body {
 .page-header {
   border-bottom: 1px solid var(--accent-color);
 }
+
 .header-cover{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
 }
 
 
@@ -136,7 +139,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-link {
