@@ -116,6 +116,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo {
@@ -137,7 +138,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-link {
@@ -304,7 +304,7 @@ body {
 
 .project-filters {
   display: flex;
-  column-gap: 24px;
+  gap: 24px; 
   justify-content: center;
   margin-bottom: 72px;
 }
